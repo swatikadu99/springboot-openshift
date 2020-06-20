@@ -1,0 +1,23 @@
+2020-06-17 07:11:31.577  INFO 13892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-17 07:11:31.652  INFO 13892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 2 MongoDB repository interfaces.
+2020-06-17 07:11:32.047  INFO 13892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 07:11:32.048  INFO 13892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 07:11:32.094  INFO 13892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 07:11:32.406  INFO 13892 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-17 07:11:32.416  INFO 13892 --- [cluster-ClusterId{value='5ee974cc9f0ff61618c0c982', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:345}] to localhost:27017
+2020-06-17 07:11:32.421  INFO 13892 --- [cluster-ClusterId{value='5ee974cc9f0ff61618c0c982', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1199200}
+2020-06-17 07:11:54.782  INFO 13892 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 07:11:54.809  INFO 13892 --- [http-nio-8081-exec-1] c.e.e.controller.EmployeeController      : getAll Employes was called- Wed Jun 17 07:11:54 IST 2020
+2020-06-17 07:11:54.810  INFO 13892 --- [http-nio-8081-exec-1] c.e.e.controller.EmployeeController      : This is an info message
+2020-06-17 07:11:54.811  WARN 13892 --- [http-nio-8081-exec-1] c.e.e.controller.EmployeeController      : This is a warn message
+2020-06-17 07:11:54.811 ERROR 13892 --- [http-nio-8081-exec-1] c.e.e.controller.EmployeeController      : This is an error message
+2020-06-17 07:11:54.822  INFO 13892 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:346}] to localhost:27017
+2020-06-17 07:12:20.128  INFO 13892 --- [Thread-889] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:7, serverValue:346}] to localhost:27017 because the pool has been closed.
+2020-06-17 07:12:21.977  INFO 13892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-06-17 07:12:22.014  INFO 13892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 2 MongoDB repository interfaces.
+2020-06-17 07:12:22.383  INFO 13892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 07:12:22.384  INFO 13892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 07:12:22.436  INFO 13892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 07:12:22.658  INFO 13892 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-06-17 07:12:22.684  INFO 13892 --- [cluster-ClusterId{value='5ee974fe9f0ff61618c0c983', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:347}] to localhost:27017
+2020-06-17 07:12:22.690  INFO 13892 --- [cluster-ClusterId{value='5ee974fe9f0ff61618c0c983', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1476000}
